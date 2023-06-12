@@ -41,6 +41,7 @@ import Footer from './sections/7Footer/Footer';
 import ProductsPages from './sections/Pages/8showProduct/ShowProductPage';
 import { useEffect, useState } from 'react';
 import Cart from "./sections/Pages/CashSection/Cart";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Contact from './sections/2contactPage/Contact';
 
 export default function App() {

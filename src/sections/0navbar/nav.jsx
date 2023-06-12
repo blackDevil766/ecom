@@ -36,7 +36,7 @@ function NavBar() {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="navContainer me-auto my-2 my-lg-0" >
 
-                            <Nav.Link href="/">
+                            <Nav.Link>
                                 <NavItem lines="hello ahmed allam" classy="nav-link activetem" nameOfNavItem="Home" iteys=
                                     {
                                         <ul className="nav-items-container">
@@ -48,7 +48,7 @@ function NavBar() {
                                 />
                             </Nav.Link>
 
-                            <Nav.Link href="#action2"><NavItem lines="hello ahmed allam1" classy="nav-link navItem" nameOfNavItem="Shop"
+                            <Nav.Link><NavItem lines="hello ahmed allam1" classy="nav-link navItem" nameOfNavItem="Shop"
                                 iteys=
                                 {
 
@@ -87,7 +87,7 @@ function NavBar() {
                             />
                             </Nav.Link>
 
-                            <Nav.Link href="#">
+                            <Nav.Link>
                                 <NavItem lines="hello ahmed allam1" classy="nav-link navItem" nameOfNavItem="Blog"
                                     iteys={
                                         <ul className="div-nav-container">
@@ -124,7 +124,7 @@ function NavBar() {
                                 />
                             </Nav.Link>
 
-                            <Nav.Link href="#">
+                            <Nav.Link>
                                 <NavItem lines="hello ahmed allam1" classy="nav-link navItem" nameOfNavItem="Pages"
                                     iteys={
                                         <ul className="nav-items-container">
@@ -136,33 +136,33 @@ function NavBar() {
                                 />
                             </Nav.Link>
 
-                            <Nav.Link href="#action1">
+                            <Nav.Link>
                                 <a id="item" className="nav-link navItem" href="Contact Us">Contact Us</a>
                             </Nav.Link>
 
                             {/*       brand      */}
-                            <Navbar.Brand href="#">
+                            <Navbar.Brand href="/">
                                 <a id="brandImg" className="navbar-brand" href="#"><img src="https://htmldemo.net/beeta/beeta/assets/img/logo/logo.png" alt="" style={{ maxWidth: "110px" }} /></a>
                             </Navbar.Brand>
                             {/*      brand       */}
 
 
-                            <Nav.Link href="#action2">
+                            <Nav.Link>
                                 <a id="item" className="nav-link navItem" href=""><span>Login / Register</span></a>
                             </Nav.Link>
 
                             <div class="wd-header-divider wd-full-height  whb-divider-element"></div>
 
-                            <Nav.Link href="#">
+                            <Nav.Link>
                                 <a id="navIco" className="nav-link" href=""><span><img src="imgs\search.svg" alt="" /></span></a>
                             </Nav.Link>
 
-                            <Nav.Link href="#">
+                            <Nav.Link>
                                 <a id="navIco" className="nav-link" href=""><span><img src="imgs\heart.svg" alt="" /></span></a>
                             </Nav.Link>
 
-                            <Nav.Link href="#">
-                                <a className="shoping-btn" href="Cart">
+                            <Nav.Link href="Cart">
+                                <a className="shoping-btn">
                                     <span><img src="imgs\shopping-bag.svg" alt="" /></span>
                                     <span><p>0 / $0.00</p></span>
                                 </a>
